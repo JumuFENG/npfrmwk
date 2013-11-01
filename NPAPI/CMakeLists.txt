@@ -7,3 +7,4 @@ project(NPAPI_Plugins)
 include_directories(${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/frmwk)
 
 add_subdirectory(npscriptdemo)
+add_subdirectory(npfdemo)

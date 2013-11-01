@@ -1,0 +1,41 @@
+#include<winver.h>
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION    1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "JumuFENG.zcf.org"
+            VALUE "FileDescription", "demo plugin for our own NPAPI framework"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "npfdemo.dll"
+			VALUE "LegalCopyright", "JumuFENG.zcf.org"
+            VALUE "MIMEType", "application/x-frmwk-demo"
+            VALUE "OriginalFilename", "npfdemo.dll"
+            VALUE "ProductName", "npfdemo.dll"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
